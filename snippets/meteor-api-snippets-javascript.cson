@@ -78,11 +78,11 @@
 
   'Flexurio Publish':
     'prefix': 'publish'
-    'body': 'publishData('namecollections', NAMECOLLECTIONS, {}, {});'
+    'body': 'publishData(${1:name}, NAMECOLLECTIONS, {}, {});'
 
   'Flexurio Subscribe':
     'prefix': 'subscribtion'
-    'body': ' subscribtion('namecollections', Session.get('oFILTERS'), Session.get('oOPTIONS'), Session.get('limit'));'
+    'body': ' subscribtion(${1:name}, Session.get(\'oFILTERS\'), Session.get(\'oOPTIONS\'), Session.get(\'limit\'));'
 
 
 #===================================================
