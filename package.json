@@ -1,0 +1,13 @@
+{
+  "name": "flexurio-api",
+  "main": "./lib/flexurio-api",
+  "version": "0.0.1",
+  "description": "Flexurio API for the Atom editor.",
+  "repository": "https://github.com/VNEU/FLEXURIO-API",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0",
+    "node": "*"
+  },
+  "dependencies": {}
+}
